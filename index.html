@@ -3,24 +3,117 @@
 <head>
   <title>SSAUKUDA</title>
   <meta charset="utf-8" />
+  <style>
+
+}
+#coke{
+
+}
+#coke strong{
+  padding-left: 33px;
+  padding-right: 40px;
+  font-size: 30px;
+}
+}
+a {
+  color:black;
+  text-decoration: none;
+}
+h1 {
+  font-size:40px;
+  text-align:center;
+  border-bottom: 2px solid dimgray;
+  margin:0;
+  padding-bottom:20px; padding-top: 10px;
+}
+h2{
+  border-bottom: solid dimgray 2px;
+  padding-bottom:20px; padding-left:20px;
+  margin-top:0px; margin-bottom:0px;
+}
+body{
+  margin:0;
+}
+
+#grid{
+  display:inline-grid;
+  grid-template-columns: 2fr 6fr 150px;
+  border-top: 2px solid dimgray;
+  width:3000px;
+}
+#grid h3{
+ margin:7px;
+ font-size: 35px;
+}
+#grid ol{
+  border-right: 2px solid dimgray;
+  width:574px;
+  margin:0px;
+  padding-top:10px;
+  padding-left:43px;
+  font-size: 25px;
+}
+#grid #last{
+  width: 5000px;
+  font-size: 20px;
+}
+
+#homegrid{
+  display: inline-grid;
+  grid-template-columns: 2fr 450px;
+  height:360px;
+}
+#lady {
+border-left: solid 2px dimgray;
+height: 360px;
+}
+
+#lady ul{
+   font-size: 20px;
+}
+#lady #cool{
+  padding-left: 40px;
+}
+#homegrid #intro{
+  font-size: 40px;
+  padding-left: 16px;
+  padding-bottom: 35px;
+}
+  </style>
+
 </head>
 
 <body>
+
+
   <h1>SSAKUDA Web Programing Study</h1>
-  <div>
-    <p>Welcome to my ssaukudaming world!</p>
-    <img src="data:image/png;base64,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" />
+  <div id="homegrid">
+    <div>
+    <p> <p id="coke"> <strong>Welcome to my ssaukudaming world!</strong></p>
+  <img src="data:image/png;base64,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" /> "
+<div><div id="intro">INTRO PAGE</div></div>
   </div>
 
-<h1>INTRO PAGE</H1>
-<div>
-<h2><a href="소개.html">소개</a></h2>
-<div>
-<h2><a href="MMA.html">MMA</a></h2>
-<div>
-<h2><a href="Kick Boxing.html">Kick Boxing</a></h2>
-<div>
-<h2><a href="Jiujitsu.html">Jiujitsu</a></h2>
+
+<div id="lady">
+<div> <ul><strong> 박석한 코치의 극진가라데 시합 하이라이트!</strong></ul></div>
+<p>
+<div id="cool">  <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fssaukuda%2Fvideos%2F315636615237773%2F&show_text=0&width=560" width="400" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe></div>
+</div>
+</div>
+  <div id="grid">
+    <ol>
+      <li><a href="소개.html">소개</a></li>
+      <li><a href="MMA.html">MMA</a></li>
+      <li><a href="Kick Boxing.html">Kick Boxing</a></li>
+      <li><a href="Jiujitsu.html">Jiujitsu</a></li>
+    </ol>
+    <div id=last>
+      <h3>topic</h3>
+  <div><< 좌측 카테고리를 클릭하시면 개별링크로 접속됩니다.^^</div>
+   </div>
+ </div>
+
 
 <p>
   <div id="disqus_thread"></div>
