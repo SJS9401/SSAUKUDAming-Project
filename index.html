@@ -79,6 +79,47 @@ height: 360px;
   padding-left: 16px;
   padding-bottom: 35px;
 }
+
+/*
+##Device = Most of the Smartphones Mobiles (Portrait)
+##Screen = B/w 320px to 479px
+##Device = 대부분의 스마트폰 모바일 기기(세로)
+##Screen = 320px에서 479px 사이
+@media (min-width: 320px) and (max-width: 480px)
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  #lady {
+  border-left: 0;
+  height: 0;
+  }
+  #grid{
+    display:inline-grid;
+    grid-template-columns: 2fr 6fr 150px;
+    border-top: 0;
+    width:0;
+  }
+  #grid ol{
+    border-right: 0;
+    width:240px;
+    margin:0px;
+    padding-top:200px;
+    padding-left:43px;
+    font-size: 25px;
+  }
+  #grid #last{
+    width: 5000px;
+    padding-top: 190px;
+    font-size: 20px;
+}
+#coke strong{
+  padding-left: 0px;
+  padding-right: 0px;
+  font-size: 25px;
+
+}
+}
+
   </style>
 
 </head>
