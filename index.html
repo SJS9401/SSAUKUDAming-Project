@@ -79,7 +79,6 @@ height: 360px;
   padding-left: 16px;
   padding-bottom: 35px;
 }
-
 /*
 ##Device = Most of the Smartphones Mobiles (Portrait)
 ##Screen = B/w 320px to 479px
@@ -87,8 +86,7 @@ height: 360px;
 ##Screen = 320px에서 479px 사이
 @media (min-width: 320px) and (max-width: 480px)
 */
-
-@media (max-width: 800px) {
+@media screen and (-webkit-device-pixel-ratio: 3) and (min-width: 414px {
   #lady {
   border-left: 0;
   height: 0;
@@ -116,10 +114,8 @@ height: 360px;
   padding-left: 0px;
   padding-right: 0px;
   font-size: 25px;
-
 }
 }
-
   </style>
 
 </head>
